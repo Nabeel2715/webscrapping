@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AbotX" Version="2.1.12" />
+    <PackageReference Include="ChatGPT.Net" Version="2.0.0" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.57" />
+    <PackageReference Include="MongoDB.EntityFrameworkCore" Version="7.0.0-preview.1" />
+    <PackageReference Include="OpenAI" Version="1.10.0" />
+    <PackageReference Include="PaLM.NET" Version="0.1.0" />
+  </ItemGroup>
+
+</Project>
